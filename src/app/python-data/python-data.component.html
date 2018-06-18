@@ -1,0 +1,6 @@
+<div class="data-container">
+  <table class="data-table" *ngIf="pData">
+    <tr><th>Value</th></tr>
+    <tr *ngFor="let curData of pData.data"><td>{{curData.pnt}}</td></tr>
+  </table>
+</div>

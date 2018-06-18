@@ -1,0 +1,19 @@
+div.data-container {
+  text-align: center;
+  padding: 10px;
+}
+
+table.data-table {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.data-table { text-align: center; border-collapse: collapse; font-family: arial; }
+.data-table th { padding: 10px; background-color: #63b4cf; color: white; }
+.data-table td { padding: 10px; }
+.data-table .clear { color: green; }
+.data-table .alarm { color: red; }
+.data-table tr.odd { background-color: #b1d9e7; }
+.data-table tr.even { background-color: #d8ecf3; }
